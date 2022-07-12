@@ -1,0 +1,74 @@
+.app_page {
+  padding: 100px 300px;
+}
+
+.products_table {
+  width: 100%;
+}
+
+.products_table th {
+  padding-bottom: 10px;
+}
+
+.products_table tbody tr:first-child td {
+  padding-top: 20px;
+  border-top: 1px solid #000;
+}
+
+.products_table th {
+  text-align: left;
+}
+
+.product_title {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.product_title_selected {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.product_tags {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tag_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.buttons_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttons_wrapper > button {
+  border: none;
+  outline: none;
+  padding: 9px 17px;
+  min-width: 120px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.buttons_wrapper > button:hover {
+  transition: all 0.3s ease-in-out;
+  opacity: 0.7;
+}
+
+.clear_btn {
+  color: #ffffff;
+  background-color: #3d3d3d;
+}
+
+.submit_btn {
+  color: #ffffff;
+  background-color: #475644;
+}
